@@ -1,6 +1,10 @@
 # onsenui_sample
 Onsen UIでつくるモバイルWebアプリの実装サンプル
 
+## Onsen UI モバイルWebテンプレート ##
+/template/index.html
+- Onsen UIを使うための基本のテンプレート
+
 ## ons-navigatorとons-listのサンプル ##
 index.html
 - ons-navigatorのpush
