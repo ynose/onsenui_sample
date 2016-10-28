@@ -1,0 +1,88 @@
+<ons-page>
+
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">ons-list</div>
+    </ons-toolbar>
+
+    <ons-list>
+        <!--１行タイトル-->
+        <ons-list-header>default</ons-list-header>
+        <ons-list-item>Title</ons-list-item>
+        <ons-list-item>タイトル</ons-list-item>
+
+        <!--タップ可能-->
+        <ons-list-header>tappable</ons-list-header>
+        <ons-list-item tappable>tappable</ons-list-item>
+        <ons-list-item modifier='chevron' tappable>chevron</ons-list-item>
+
+        <!--タイトル＋サブタイトル １行左詰め-->
+        <ons-list-header>left</ons-list-header>
+        <ons-list-item>
+            <div class="left">
+                <span class="list__item__title">Title</span>
+                <span class="list__item__subtitle">Subtitle</span>
+            </div>
+        </ons-list-item>
+        <ons-list-item>
+            <div class="left">
+                <span class="list__item__title">タイトル</span>
+                <span class="list__item__subtitle">サブタイトル</span>
+            </div>
+        </ons-list-item>
+
+        <!--タイトル＋サブタイトル ２行表示-->
+        <ons-list-header>center + longdivider</ons-list-header>
+        <ons-list-item modifier="longdivider">
+            <div class="center">
+                <span class="list__item__title">Title</span>
+                <span class="list__item__subtitle">Subtitle</span>
+            </div>
+        </ons-list-item>
+        <ons-list-item modifier="longdivider">
+            <div class="center">
+                <span class="list__item__title">タイトル</span>
+                <span class="list__item__subtitle">サブタイトル</span>
+            </div>
+        </ons-list-item>
+
+        <!--タイトル＋サブタイトル １行右詰め-->
+        <ons-list-header>right + nodivider</ons-list-header>
+        <ons-list-item modifier="nodivider">
+            <div class="right">
+                <span class="list__item__title">Title</span>
+                <span class="list__item__subtitle">Subtitle</span>
+            </div>
+        </ons-list-item>
+        <ons-list-item modifier="nodivider">
+            <div class="right">
+                <span class="list__item__title">タイトル</span>
+                <span class="list__item__subtitle">サブタイトル</span>
+            </div>
+        </ons-list-item>
+    </ons-list>
+
+    <br />
+
+    <ons-list modifier="inset">
+        <!--アイコン＋タイトル＋サブタイトル＋スイッチ 組み合わせ-->
+        <ons-list-header>inset + icon + switch</ons-list-header>
+        <ons-list-item>
+        <div class="left">
+            <ons-icon icon="ion-checkmark-circled" class="list__item__icon"></ons-icon>
+            <!--http://ionicons.com/-->
+        </div>
+        <div class="center">
+            <span class="list__item__title">Title</span>
+            <span class="list__item__subtitle">Subtitle</span>
+        </div>
+        <label class="right">
+            <ons-switch></ons-switch>
+        </label>
+        </ons-list-item>
+    </ons-list>
+
+    <br />
+
+</ons-page>
+
