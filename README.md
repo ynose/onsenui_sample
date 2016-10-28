@@ -5,9 +5,14 @@ Onsen UIでつくるモバイルWebアプリの実装サンプル
 /template/index.html
 - Onsen UIを使うための基本のテンプレート
 
-## ons-navigatorとons-listのサンプル ##
+## Onsen UI 各コンポーネントのサンプル ##
 index.html
-- ons-navigatorのpush
+- ons-navigator.push/popのサンプル画面へ遷移
+- ons-listのサンプル画面へ遷移
+
+sample/ons-back-button.html
+- ons-toolbar
+- ons-back-buttonで画面をpop
 
 sample/ons-list.html
 - ons-list-header
@@ -16,5 +21,3 @@ sample/ons-list.html
 - ons-list-itemのtitle, subtitle
 - ons-list-itemにons-icon, ons-switchの埋め込み
 - ons-listのinset
-
-- ons-toolbarのons-back-buttonで、ons-navigatorのpop
