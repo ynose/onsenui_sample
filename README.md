@@ -1,21 +1,35 @@
-# onsenui_sample
 Onsen UIでつくるモバイルWebアプリの実装サンプル
 
-## Onsen UI モバイルWebテンプレート ##
+公式Onsen UIドキュメント
+[Onsen UIドキュメント](https://ja.onsen.io/v2/docs/js.html)
+
+# モバイルWebテンプレート #
 /template/index.html
 - Onsen UIを使うための基本のテンプレート
 
-## ons-navigatorのサンプル ##
+# モバイルWebサンプル #
+## ページナビゲーションのサンプル ##
 index.html
 - ons-navigator.push/popのサンプル画面へ遷移
 - ons-listのサンプル画面へ遷移
 
-## ons-navigator.push/popとons-back-buttonのサンプル ##
-sample/ons-back-button.html
+公式ドキュメント
+[ons-navigator](https://ja.onsen.io/v2/docs/js/ons-navigator.html)
+
+## スライドメニューのサンプル ##
+index2.html
+- ons-splitter
+- ons-splitterとons-navigatorの組み合わせ
+
+公式ドキュメント
+[ons-splitter](https://ja.onsen.io/v2/docs/js/ons-navigator.html)
+
+## ページナビゲーションのPushとPopのサンプル ##
+sample/ons-navigator_push1.html, ons-navigator_push1.html
 - ons-toolbar
 - ons-back-buttonで画面をpop
 
-## ons-listのサンプル ##
+## リストのサンプル ##
 sample/ons-list.html
 - ons-list-header
 - ons-list-itemのtappable, chevron
@@ -24,5 +38,5 @@ sample/ons-list.html
 - ons-list-itemにons-icon, ons-switchの埋め込み
 - ons-listのinset
 
-## ons-splitterのサンプル ##
-index2.html
+公式ドキュメント
+[ons-list](https://ja.onsen.io/v2/docs/js/ons-list.html)
