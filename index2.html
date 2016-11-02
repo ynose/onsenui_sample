@@ -37,6 +37,12 @@
                 .then(menu.close.bind(menu));
         };                
 
+        window.fn.resetPage = function(page) {
+            var content = document.getElementById('content');
+            var menu = document.getElementById('menu');
+            document.getElementById('myNavigator').resetToPage(page).then(menu.close.bind(menu));
+        };                
+
         window.fn.pushPage = function(page) {
             document.getElementById('myNavigator').pushPage(page);
         };                
@@ -49,8 +55,8 @@
         <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
             <ons-page>
                 <ons-list>
-                    <ons-list-item onclick='fn.loadPage("samplelist1")' tappable>ons-navigator.push/pop</ons-list-item>
-                    <ons-list-item onclick='fn.loadPage("samplelist2")' tappable>ons-list</ons-list-item>
+                    <ons-list-item onclick='fn.resetPage("samplelist1")' tappable>ons-navigator.push/pop</ons-list-item>
+                    <ons-list-item onclick='fn.resetPage("samplelist2")' tappable>ons-list</ons-list-item>
                 </ons-list>
             </ons-page>
         </ons-splitter-side>
