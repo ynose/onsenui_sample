@@ -3,6 +3,9 @@
 <head>
     <title>Onsen UI サンプル</title>
 
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -31,7 +34,22 @@
 <body>
 
     <!--ナビゲーションバー-->
-    <ons-navigator id="myNavigator" page="samplelist.html"></ons-navigator>
+    <ons-navigator id="myNavigator" page="samplelist"></ons-navigator>
+
+    <ons-template id="samplelist">
+        <ons-page>
+            <ons-toolbar>
+                <div class="center">Onsen UI 2 - index.html</div>
+            </ons-toolbar>
+
+            <!--サンプル名のリスト-->
+            <ons-list>
+                <ons-list-header>sample</ons-list-header>
+                <ons-list-item modifier='chevron' onclick='fn.pushPage("sample/ons-navigator_push1.html")' tappable>ons-navigator.push/pop</ons-list-item>
+                <ons-list-item modifier='chevron' onclick='fn.pushPage("sample/ons-list.html")' tappable>ons-list</ons-list-item>
+            </ons-list>
+        </ons-page>
+    </ons-template>
 
 </body>
 </html>
