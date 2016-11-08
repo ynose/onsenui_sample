@@ -40,3 +40,11 @@ sample/ons-list.html
 
 公式ドキュメント
 [ons-list](https://ja.onsen.io/v2/docs/js/ons-list.html)
+
+## フォームのサンプル ##
+sample/ons-input.html
+- ons-input
+- ons-button
+
+公式ドキュメント
+[ons-input](https://ja.onsen.io/v2/docs/js/ons-input.html)
